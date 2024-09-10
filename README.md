@@ -160,4 +160,4 @@ document.getElementById("copy-object").textContent = Object.values(copiaObjeto).
 
 ```
 
-[Código](POC-Array/script.js)
+[Código](script.js)
