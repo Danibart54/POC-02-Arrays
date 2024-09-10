@@ -123,7 +123,7 @@ O método reduce executa uma função de redução em cada elemento de uma matri
 
 ## Spread 
 
-Spread é um método de array é usado para copiar tudo ou uma parte do array em outro array.
+O operador spread permite "espalhar" ou expandir os elementos de um array, objeto ou outra estrutura de dados onde múltiplos elementos são esperados. usado para copiar, combinar ou distribuir os itens de arrays e objetos de forma eficiente.
 
 ### Exemplo 1
 
