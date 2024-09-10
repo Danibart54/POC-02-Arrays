@@ -88,7 +88,7 @@ O método map cria uma nova matriz com os resultados da chamada de função espe
 
 ## Reduce 
 
-Reduce é um método de array que reduz o array a um único valor.
+O método reduce executa uma função de redução em cada elemento de uma matriz, retornando um único valor como resultado.
 
 ### Exemplo 1 
 
