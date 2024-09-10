@@ -63,7 +63,7 @@ console.log(pares)
 [Código](filter.js)
 
 ## Map 
-O método "map()" cria uma nova matriz com os resultados da chamada de função especificada aplicada a cada um de seus elementos.
+O método map cria uma nova matriz com os resultados da chamada de função especificada aplicada a cada um de seus elementos.
 
 ### Exemplo 1
 ``` Js
