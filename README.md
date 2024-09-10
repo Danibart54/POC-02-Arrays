@@ -125,6 +125,7 @@ Reduce é um método de array que reduz o array a um único valor.
 
 Spread é um método de array é usado para copiar tudo ou uma parte do array em outro array.
 
+### Exemplo 1
 
 ``` Js
 // Exemplo 1: Copiar um Array
@@ -132,6 +133,30 @@ Spread é um método de array é usado para copiar tudo ou uma parte do array em
     const copiarArray = [...arrayOriginal];//O array "arrayOriginal"( 1, 2, 3 ) é copiado para "copiarArray"
     document.getElementById("copy-array").textContent = copiarArray.join(', ');//conteúdo copiado sera exibido usado o "copy-array"
     //saida: 1, 2, 3, 4
+
+```
+
+### Exemplo 2
+
+``` Js
+// Exemplo 2: Combinar Arrays
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+const combinadoArray = [...array1, ...array2];//"array"1 e "array2" serão combinados no "combinadoArray"
+document.getElementById("combine-arrays").textContent = combinadoArray.join(', ');
+ /*saída : 1, 2, 3, 4, 5, 6 */
+
+```
+
+### Exemplo 3
+
+``` Js
+// Exemplo 3: Copiar um Objeto
+const objetoOriginal = { a: 1, b: 2 };// "a" e "b" para difinição.
+const copiaObjeto = { ...objetoOriginal };//"objetoOriginal" é copiado para outro local "copiaObjeto " .
+document.getElementById("copy-object").textContent = Object.values(copiaObjeto).join(', ');
+//join(', ') para converter um array em uma string.
+/* Saída :  1, 2 */
 
 ```
 
