@@ -1,5 +1,5 @@
 # POC-02-Arrays
-![](imagens/logo.jpg)
+![](logo.jpg)
 
 
 Explicação dos métodos de arrays (sort, filter,map,reduce,spread). 
