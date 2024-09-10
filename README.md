@@ -63,7 +63,7 @@ console.log(pares)
 [Código](filter.js)
 
 ## Map 
-Map é um método de array que cria um novo array com base nos resultados de aplicar uma função a cada elemento. Dobra a cada número.
+O método "map()" cria uma nova matriz com os resultados da chamada de função especificada aplicada a cada um de seus elementos.
 
 ### Exemplo 1
 ``` Js
